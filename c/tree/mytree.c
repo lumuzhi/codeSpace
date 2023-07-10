@@ -69,7 +69,17 @@ void inOrder(TreeNode* root)
 /*      recursion end     */
 
 /*      iteration function start     */
-
+/*
+    CPP  preOrder  中左右
+    stack<TreeNode*>st;
+    vector<int>res;
+    if(root != NULL) st.push(root)
+    while(!st.empty){
+        TreeNode* temp = st.pop();
+        res.push_bask(temp->val);
+        if(root->left) st.push
+    }
+*/
 
 
 
@@ -92,3 +102,4 @@ void reverseArray(int arr[], int size)
         arr[i] = arr[i] - arr[tail];
     } 
 }
+
