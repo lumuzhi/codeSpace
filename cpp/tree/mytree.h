@@ -9,17 +9,8 @@ typedef struct TreeNode
 }TreeNode;
 
 TreeNode* createNode(int val);
-TreeNode* buildCompleteBinaryTree(int *arr, int start, int len);
-
-void postOrder(TreeNode* root, int arr[], int len);
-
-void inOrder(TreeNode* root);
+TreeNode* buildCompleteBinaryTree(int *nums, int start, int len);
 
 void preOrder(TreeNode* root);
 
-void reverseArray(int arr[], int size);
-
-
 #endif
-
-
